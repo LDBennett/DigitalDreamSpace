@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 4, 2017, 4:54:34 PM
+    Author     : LDB16
+*/
+
+body{
+  font-family: 'Reenie Beanie', cursive;
+  background-image: url('../img/nice-snow.png');
+  padding: 10em 0em 10em 0em;
+  color: black;
+}
+h2{
+  font-family: 'Walter Turncoat', cursive;
+}
+#main{
+  display: none;
+}
+
+.shake{
+  opacity: 0.5;
+}
+.shake:hover{
+  opacity: 1.0;
+}
+
+.transparent-text {
+  visibility: hidden;
+}
+
+p{
+  font-size: 2em;
+}
+
+a, a:link, a:hover, a:visited, a:active{
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 3em;
+}
+
+input[type=submit] {
+  background:url("../img/ellipsis.gif") center no-repeat;
+  margin-top: -1em;
+}
